@@ -1,0 +1,9 @@
+<databases>
+<database title="classicmodels">
+	<hostname>localhost</hostname>
+	<username>root</username>
+	<password>boot</password>
+	<db>classicmodels</db>
+</database>
+</databases>
+

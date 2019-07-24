@@ -1,0 +1,16 @@
+This file is about xml parsing for the configuration in the xml file instead of passing it directly in the program.
+
+
+step 1 : create a config file 
+config.xml
+
+step 2 : 
+python program to use that file
+db1.py
+
+Done.
+ 
+
+extra lib used : xml.dom.minidom
+
+
