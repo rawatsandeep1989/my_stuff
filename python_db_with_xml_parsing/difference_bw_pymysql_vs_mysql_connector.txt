@@ -1,0 +1,12 @@
+PyMySQL - Pure Python MySQL client. According to the maintainer of both mysqlclient and PyMySQL, you should use PyMySQL if:
+
+    You can't use libmysqlclient for some reason.
+    You want to use monkeypatched socket of gevent or eventlet.
+    You wan't to hack mysql protocol.
+
+mysql-connector-python - MySQL connector developed by the MySQL group at Oracle, also written entirely in Python. It's performance appears to be the worst out of the three. Also, due to some licensing issues, you can't download it from PyPI (but it's now available through conda).
+
+
+
+#bencmarking done here proving mysql connector to be faster than pymysql:
+https://gist.github.com/methane/90ec97dda7fa9c7c4ef1

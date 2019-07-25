@@ -1,0 +1,8 @@
+{"database":
+	{
+	"username":"root",
+	"passord":"boot",
+	"host":"localhost",
+	"db":"classicmodels"
+	}
+}
