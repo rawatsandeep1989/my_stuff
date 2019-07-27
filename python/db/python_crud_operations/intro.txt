@@ -1,5 +1,7 @@
-In this part we will be using sqlite3 database,
+In this part we will be using sqlite3 database, 
 which is inbuilt and very lightweight db.
+
+
 
 The steps we need to follow to use sqlite db.
 import sqlite3 module in python program
@@ -7,3 +9,14 @@ create a connection object
 create a cursor object.
 execute the sql query with the cursor object
 commit it or rollback depending upon the results.
+
+
+
+
+
+Inserting data into tables using various options:
+. execute
+	a. using the paramterized query
+	b. executing using simple query with values in the query.
+	c. using an array of values(inserting multiple records at once)
+
