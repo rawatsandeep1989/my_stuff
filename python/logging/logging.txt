@@ -1,0 +1,40 @@
+Level of severity
+
+The logger module has several levels of severity. We set the level of severity using this line of code:
+
+logging.basicConfig(level=logging.DEBUG)
+
+These are the levels of severity:
+
+The default logging level is warning, which implies that other messages are ignored. If you want to print debug or info log messages you have to change the logging level like so:
+Type 	Description
+DEBUG 	Information only for problem diagnostics
+INFO 	The program is running as expected
+WARNING 	Indicate something went wrong
+ERROR 	The software will no longer be able to function
+CRITICAL 	Very serious error
+
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+logging.debug('Debug message')
+
+Time in log
+
+You can enable time for logging using this line of code:
+
+logging.basicConfig(format='%(asctime)s %(message)s')
+
+An example below:
+
+import logging
+
+logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
+logging.info('Logging app started')
+logging.warning('An example logging message.')
+logging.warning('Another log message')
+
+Output:
+
+2015-06-25 23:24:01,153 Logging app started
+2015-06-25 23:24:01,153 An example message.
