@@ -1,0 +1,25 @@
+Day 1 : 24/jul/2019
+learn xml parsing. (done)
+learn all crud operations.(done)
+cursor various functions(done) 
+differences between pymysql and other connector (mysql.connector vs pymysql)(done)
+
+Day2 :25/jul/2019(done)
+learn json parsing.
+creating a module for db connectivity.
+kind of error while performing db operations in python.(part1)
+
+Day3: 26/july/2019(done)
+prepared statements in python
+kind of error while performing db operations in python.(part 2)
+
+Day 4 : 27/jul/2019(done
+Python memory management : 
+logging
+
+Day 5: 28/jul/2019
+Difference between python package and module ( a package can have several modules in it)
+How to create a module?
+
+
+

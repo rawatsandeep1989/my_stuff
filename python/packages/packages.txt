@@ -1,0 +1,11 @@
+Packages are a way of structuring many packages and modules which helps in a well-organized hierarchy of data set, making the directories and modules easy to access.
+
+
+Creating and Exploring Packages
+step 1 : Frist we create a dir and give it a package name , preferably related to its operation
+
+step 2 : then we put required functions and classes in it
+
+
+step 3 : finally we create a __init__.py file inside the directory to let python know that is a package.
+

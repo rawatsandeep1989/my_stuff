@@ -1,0 +1,39 @@
+modules in python is just a simple python file.
+The name of the module is same as the name of the file.
+A python module can have a set of functions,classes or variables defined and implemented.
+
+
+
+
+Advantages of using modules : 
+a. simplicity
+b. maintainability
+c. reusability
+d. scoping : define a seprate namespace
+
+
+The module search path : 
+what happens when the following statement is executed : 
+import mod
+
+when the interpretor execute the above statement, it searches for mod.py in a list of dir that depends how we running python:
+
+case 1 : python ran interactively : 
+	search for the "mod" module in current dir
+
+case 2 : Modify the PYTHONPATH environment variable to contain the directory where mod.py is located before starting the interpreter
+
+    Or: Put mod.py in one of the directories already contained in the PYTHONPATH variable
+
+case 3 : Put mod.py in one of the installation-dependent directories, which you may or may not have write-access to, depending on the OS
+
+
+There is actually one additional option: you can put the module file in any directory of your choice and then modify sys.path at run-time so that it contains that directory. For example, in this case, you could put mod.py in directory C:\Users\john and then issue the following statements:
+
+
+>>sys.path.append(r'C:\Users\john')
+>>> sys.path
+['', 'C:\\Users\\john\\Documents\\Python\\doc', 'C:\\Python36\\Lib\\idlelib',
+'C:\\Python36\\python36.zip', 'C:\\Python36\\DLLs', 'C:\\Python36\\lib',
+'C:\\Python36', 'C:\\Python36\\lib\\site-packages', 'C:\\Users\\john']
+>>> import mod
