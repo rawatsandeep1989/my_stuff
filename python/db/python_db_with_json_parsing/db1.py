@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
-
 import MySQLdb
 import json
 
-with open("/home/sandeepr/mystuff/python_db_with_json_parsing/json_file.txt",'r') as f:
+with open("/home/sandeepr/mystuff/python/db/python_db_with_json_parsing/json_file.txt",'r') as f:
 	data_in_json =json.load(f)
 
 

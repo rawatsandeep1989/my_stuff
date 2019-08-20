@@ -1,0 +1,28 @@
+Naming  rules here are : 
+
+name of the testing file should be like,
+test_<name of file for which this test is> 
+
+name of the function which test a particular funtion should be like 
+test_<name of function which it tests>
+
+
+
+
+steps to follow:
+1. create a module
+e.g
+calc.py
+
+
+
+2. create a test class and import unittest inside it with naming convention as,
+test_<name of class>
+e.g
+test_calc.py
+
+
+
+3. Inside class we will create a class with any name and inherit unitest.TestCase 
+
+
